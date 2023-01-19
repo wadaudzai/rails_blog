@@ -2,7 +2,6 @@
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Microverse Education project by Abdulrahman Daudzai</b></h3>
