@@ -1,0 +1,9 @@
+<section>
+<% @users.each do |user| %>
+  <ul>
+    <li><%= link_to user.name, user_path(user) %></li>
+    <li><%= user.photo %></li>
+    <li>Number of Posts: <%= user.posts_counter %></li>
+  </ul>
+<% end %>
+</section>

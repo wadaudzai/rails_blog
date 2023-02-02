@@ -1,0 +1,21 @@
+<section>
+
+  <div>
+    <h2>Username: <%= @user.name %></h2>
+    <p>Number of posts: <%= @user.posts_counter %></p>
+  </div>
+
+  <div>
+    <h3>Bio</h3>
+    <p><%= @user.bio %></p>
+  </div>
+
+  <% @user.posts.each do |post| %>
+    <ul>
+      <li><%= post.text %></li>
+      <li>Comments: <%= post.comments_counter %></li>
+      <li>Likes: <%= post.likes_counter %></li>
+    </ul>
+  <% end %>
+
+</section>
